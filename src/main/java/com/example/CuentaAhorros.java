@@ -37,7 +37,7 @@ public class CuentaAhorros extends Cuenta {
     }
 
     public void imprimir() {
-        System.out.println("* * * *   Cuenta de Ahorros   * * * *");
+        System.out.println("\n* * * *   Cuenta de Ahorros   * * * *");
         System.out.println("Saldo: $" +saldo);
         System.out.println("Comision mensual: $" +comisionMensual);
         System.out.println("Número de transacciones: " +(numeroConsignaciones + numeroRetiros));

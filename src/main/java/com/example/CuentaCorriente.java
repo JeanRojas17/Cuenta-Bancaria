@@ -43,7 +43,7 @@ public class CuentaCorriente extends Cuenta {
 
     @Override
     public void imprimir() {
-        System.out.println("* * * *   Cuenta Corriente   * * * *");
+        System.out.println("\n* * * *   Cuenta Corriente   * * * *");
         System.out.println("Saldo: $" +saldo);
         System.out.println("Comisión mensual: $" +comisionMensual);
         System.out.println("Número de transacciones: " +(numeroConsignaciones + numeroRetiros));
